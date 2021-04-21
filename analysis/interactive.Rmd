@@ -12,7 +12,7 @@ editor_options:
 Set chunk options:
 
 ```{r}
-knitr::opts_chunk$set(eval = FALSE)
+knitr::opts_chunk$set(eval = TRUE)
 ```
 
 Load CRAN packages:
@@ -164,13 +164,13 @@ ecm <- ExperimentColorMap(
 )
 
 # Create iSEE object
-iSEE(sce, appTitle = "e-NMPs CLE (E8.5/E9.5) [MNN]", colormap = ecm)
+iSEE(sce, appTitle = "e-NMPs CLE (E8.5/E9.5) [Integrated]", colormap = ecm)
 ```
 
 Deploy the iSEE application to the shiny server:
 
 ```{r}
-deployApp(appDir = "shiny", appName = "GOUTI_2017_NMP_MNN", appTitle = "e-NMPs CLE (E8.5/E9.5) [MNN]", launch.browser = FALSE, forceUpdate = TRUE)
+deployApp(appDir = "shiny", appName = "GOUTI_2017_NMP_MNN", appTitle = "e-NMPs CLE (E8.5/E9.5) [Integrated]", launch.browser = FALSE, forceUpdate = TRUE)
 ```
 
 Allocate more memory to the iSEE application:
