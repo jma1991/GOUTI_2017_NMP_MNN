@@ -426,6 +426,18 @@ div.tocify {
     </li>
   </ul>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Analysis
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="cell-signalling.html">Cell signalling</a>
+    </li>
+  </ul>
+</li>
 <li>
   <a href="interactive.html">Interactive</a>
 </li>
@@ -451,7 +463,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Marker gene detection</h1>
 <h4 class="author">James Ashmore</h4>
-<h4 class="date">21 April, 2021</h4>
+<h4 class="date">14 May, 2021</h4>
 
 </div>
 
@@ -476,13 +488,13 @@ div.tocify {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2021-04-21
+<strong>Last updated:</strong> 2021-05-14
 </p>
 <p>
 <strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
 </p>
 <p>
-<strong>Knit directory:</strong> <code>E-MTAB-5208/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
+<strong>Knit directory:</strong> <code>integrated-analysis/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
 </p>
 <p>
 This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis was created with <a
@@ -567,16 +579,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongf8af743"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> f8af743 </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjma1991GOUTI2017NMPMNNtree80deb0e2109b397c5826eb8665d64f25b9ec0147targetblank80deb0ea"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jma1991/GOUTI_2017_NMP_MNN/tree/80deb0e2109b397c5826eb8665d64f25b9ec0147" target="_blank">80deb0e</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongf8af743" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomjma1991GOUTI2017NMPMNNtree80deb0e2109b397c5826eb8665d64f25b9ec0147targetblank80deb0ea" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version f8af743. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/jma1991/GOUTI_2017_NMP_MNN/tree/80deb0e2109b397c5826eb8665d64f25b9ec0147" target="_blank">80deb0e</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -585,7 +597,6 @@ Note that you need to be careful to ensure that all relevant files for the analy
 Ignored files:
     Ignored:    .Rproj.user/
     Ignored:    analysis/cache/
-    Ignored:    pipeline/
     Ignored:    shiny/
 
 Untracked files:
@@ -647,7 +658,7 @@ Message
 html
 </td>
 <td>
-2745862
+<a href="https://rawcdn.githack.com/jma1991/GOUTI_2017_NMP_MNN/e9691a03b5502b085af2daad4429df05fc673b8b/docs/09-marker-detection.html" target="_blank">e9691a0</a>
 </td>
 <td>
 James Ashmore
@@ -664,7 +675,7 @@ Build
 html
 </td>
 <td>
-4f928d1
+<a href="https://rawcdn.githack.com/jma1991/GOUTI_2017_NMP_MNN/27458623db3b37ff03afca101a75d3ab4720eb78/docs/09-marker-detection.html" target="_blank">2745862</a>
 </td>
 <td>
 James Ashmore
@@ -681,7 +692,7 @@ Build
 html
 </td>
 <td>
-770e7ee
+<a href="https://rawcdn.githack.com/jma1991/GOUTI_2017_NMP_MNN/4f928d1fe826fb402c8fcb003d81cb3519e2b257/docs/09-marker-detection.html" target="_blank">4f928d1</a>
 </td>
 <td>
 James Ashmore
@@ -698,7 +709,7 @@ Build
 html
 </td>
 <td>
-e2569be
+<a href="https://rawcdn.githack.com/jma1991/GOUTI_2017_NMP_MNN/770e7eeb232746fad8cde8b25f8d86ebdd2c5649/docs/09-marker-detection.html" target="_blank">770e7ee</a>
 </td>
 <td>
 James Ashmore
@@ -715,7 +726,24 @@ Build
 html
 </td>
 <td>
-43c9d05
+<a href="https://rawcdn.githack.com/jma1991/GOUTI_2017_NMP_MNN/e2569be9c05bdcf90bd71aeb1125d4c743b8f0be/docs/09-marker-detection.html" target="_blank">e2569be</a>
+</td>
+<td>
+James Ashmore
+</td>
+<td>
+2021-04-21
+</td>
+<td>
+Build
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/jma1991/GOUTI_2017_NMP_MNN/43c9d056b02dbe29a29c9bb2dcfe043e2e1bd0ac/docs/09-marker-detection.html" target="_blank">43c9d05</a>
 </td>
 <td>
 James Ashmore
@@ -732,7 +760,7 @@ Build
 Rmd
 </td>
 <td>
-787899c
+<a href="https://github.com/jma1991/GOUTI_2017_NMP_MNN/blob/787899c935d0894cf2b984d7ad2df20322409465/analysis/09-marker-detection.Rmd" target="_blank">787899c</a>
 </td>
 <td>
 James Ashmore
